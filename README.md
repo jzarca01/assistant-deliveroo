@@ -1,19 +1,28 @@
-# assistant-template
+# assistant-deliveroo
 
-Dans le fichier `template.js` on retrouve la structure minimale à utiliser pour créer un autre plugin.
+Un plugin pour être tenu informé de l'état de votre commande Deliveroo avec votre assistant vocal
 
 ## Configuration
 
-Si vous avez besoin de configuration, elle doit être stockée dans le fichier `configuration.json`.
+Dans le fichier `configuration.json`, ajoutez votre identifiant et votre mot de passe Deliveroo
+
+```json
+{
+  "main": {
+    "pushbullet_token": ""
+  },
+  "plugins": {
+    "notifier": {
+      "host": ""
+    },
+    "deliveroo": {
+      "email": "votre@email.com",
+      "password": "votreMotdePasse"
+    }
+  }
+}
+```
 
 ## Utilisation
 
-Le plugin sera appelé quand le message `template_XXX` sera envoyé à Pushbullet (depuis IFTTT), avec `template` le nom du plugin, et `XXX` la commande envoyée au plugin en question.
-
-## Faire Valider
-
-Une fois que tout est prêt, vous pouvez demander à ajouter votre plugin sur [https://github.com/Aymkdn/assistant-plugins](https://github.com/Aymkdn/assistant-plugins). Je vérifierai que tout est bon et je l'ajouterai.
-
-## Publication
-
-Une fois votre plugin validé et prêt, vous pouvez le publier sur [https://www.npmjs.com/](https://www.npmjs.com/)
+Le tracking sera appelé quand le message `deliveroo_track` sera envoyé à Pushbullet (depuis IFTTT)

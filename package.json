@@ -1,9 +1,12 @@
 {
-  "name": "assistant-template",
+  "name": "assistant-deliveroo",
   "version": "2.0.0",
-  "description": "Exemple de la structure d'un plugin",
-  "author": "aymkdn",
-  "main":"template.js",
-  "repository":"https://github.com/Aymkdn/assistant-template/",
-  "license": "MIT"
+  "description": "Plugin de tracking Deliveroo",
+  "author": "Jérémie Zarca",
+  "main": "index.js",
+  "repository": "https://github.com/jzarca01/assistant-deliveroo/",
+  "license": "MIT",
+  "dependencies": {
+    "node-deliveroo": "^1.1.3"
+  }
 }
