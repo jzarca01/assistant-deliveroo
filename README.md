@@ -4,7 +4,7 @@ Un plugin pour être tenu informé de l'état de votre commande Deliveroo avec v
 
 ## Configuration
 
-Dans le fichier `configuration.json`, ajoutez votre identifiant et votre mot de passe Deliveroo
+Dans le fichier `configuration.json`, ajoutez votre identifiant, votre mot de passe Deliveroo et votre code promo
 
 ```json
 {
@@ -17,7 +17,8 @@ Dans le fichier `configuration.json`, ajoutez votre identifiant et votre mot de 
     },
     "deliveroo": {
       "email": "votre@email.com",
-      "password": "votreMotdePasse"
+      "password": "votreMotdePasse",
+      "voucher": ""
     }
   }
 }

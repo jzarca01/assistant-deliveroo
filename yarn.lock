@@ -39,3 +39,7 @@ node-deliveroo@^1.1.3:
   dependencies:
     axios "^0.18.0"
     faker "^4.1.0"
+
+"random-username-generator@https://github.com/jzarca01/username-generator":
+  version "1.0.4"
+  resolved "https://github.com/jzarca01/username-generator#1f90718b9cd362b0e2c5e0620d920397816c1cf2"
