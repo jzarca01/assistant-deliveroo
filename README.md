@@ -10,7 +10,7 @@ Dans le fichier `configuration.json`, ajoutez votre identifiant et votre mot de 
 {
   "deliveroo": {
     "email": "votre@email.com",
-    "password": "votreMotdePasse"
+    "password": "votreMotdePasse",
     "voucher": ""
   }
 }
