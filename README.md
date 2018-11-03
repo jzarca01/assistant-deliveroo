@@ -17,4 +17,4 @@ Dans le fichier `configuration.json`, ajoutez votre identifiant et votre mot de 
 
 ## Utilisation
 
-[Surveille ma commande](https://ifttt.com/applets/88198265d-if-you-say-surveille-ma-commande-then-push-a-note)
+- [Surveille ma commande](https://ifttt.com/applets/88198265d-if-you-say-surveille-ma-commande-then-push-a-note)
