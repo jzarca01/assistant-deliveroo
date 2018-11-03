@@ -8,21 +8,13 @@ Dans le fichier `configuration.json`, ajoutez votre identifiant et votre mot de 
 
 ```json
 {
-  "main": {
-    "pushbullet_token": ""
-  },
-  "plugins": {
-    "notifier": {
-      "host": ""
-    },
-    "deliveroo": {
-      "email": "votre@email.com",
-      "password": "votreMotdePasse"
-    }
+  "deliveroo": {
+    "email": "votre@email.com",
+    "password": "votreMotdePasse"
   }
 }
 ```
 
 ## Utilisation
 
-Le tracking sera appelé quand le message `deliveroo_track` sera envoyé à Pushbullet (depuis IFTTT)
+[Surveille ma commande](https://ifttt.com/applets/88198265d-if-you-say-surveille-ma-commande-then-push-a-note)
