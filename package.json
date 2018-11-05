@@ -1,8 +1,8 @@
 {
   "name": "assistant-deliveroo",
-  "version": "2.0.0",
-  "description": "Plugin de tracking Deliveroo",
-  "author": "Jérémie Zarca",
+  "version": "1.0.0",
+  "description": "Un plugin Deliveroo pour assistant-plugins",
+  "author": "Jérémie Zarca <jeremie.zarca@gmail.com>",
   "main": "index.js",
   "repository": "https://github.com/jzarca01/assistant-deliveroo/",
   "license": "MIT",
