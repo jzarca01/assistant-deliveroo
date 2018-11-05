@@ -20,4 +20,4 @@ Deux paramètres sont obligatoires : `email` et `password`, qui correspondent à
 ## Utilisation
 
 Utiliser l'applet ci-dessous : 
-- Surveille ma commande --> *il faut créer l'applet via https://platform.ifttt.com/ pour pouvoir la publier et ensuite la partager*
+- [Surveille ma commande](https://ifttt.com/applets/Kprmk95M-assistant-plugins-ou-en-est-mon-deliveroo) --> https://ifttt.com/applets/Kprmk95M-assistant-plugins-ou-en-est-mon-deliveroo
