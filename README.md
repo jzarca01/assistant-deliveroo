@@ -15,7 +15,7 @@ Ensuite, pour ajouter ce plugin :
 
 ## Configuration
 
-Deux paramètres sont obligatoires : `email` et `password`, qui correspondent à vos identifiants [Deliveroo](https://deliveroo.fr/).
+Deux paramètres sont obligatoires : `accessToken` et `userId`, et vous pouvez également définir l'intervalle de mise à jour du traqueur `updateInterval` (en ms).
 
 ## Utilisation
 
