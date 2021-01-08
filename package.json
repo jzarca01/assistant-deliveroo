@@ -1,12 +1,13 @@
 {
   "name": "assistant-deliveroo",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Un plugin Deliveroo pour assistant-plugins",
   "author": "Jérémie Zarca <jeremie.zarca@gmail.com>",
   "main": "index.js",
   "repository": "https://github.com/jzarca01/assistant-deliveroo/",
   "license": "MIT",
   "dependencies": {
+    "dayjs": "^1.10.2",
     "node-deliveroo": "^1.1.3"
   }
 }
