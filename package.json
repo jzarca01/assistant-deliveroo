@@ -1,6 +1,6 @@
 {
   "name": "assistant-deliveroo",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Un plugin Deliveroo pour assistant-plugins",
   "author": "Jérémie Zarca <jeremie.zarca@gmail.com>",
   "main": "index.js",
